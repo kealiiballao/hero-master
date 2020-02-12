@@ -1,14 +1,17 @@
 // adds packages for superheroes and supervillains
 const superheroes = require('superheroes');
 const supervillains = require('supervillains');
+const famouslastwords = require('famous-last-words');
 
 //saves two variables of a random hero and villian
 var mySuperHeroName = superheroes.random();
 var mySuperVillainName = supervillains.random();
+var myFamousLastWords = famous-last-words.random();
 
 //displays the hero and villain to the console
 console.log(mySuperHeroName);
 console.log(mySuperVillainName);
+console.log(myFamousLastWords);
 
 // adds package for inspiration quote and displays it
 const Quote = require('inspirational-quotes');
