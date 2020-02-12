@@ -6,7 +6,7 @@ const famouslastwords = require('famous-last-words');
 //saves two variables of a random hero and villian
 var mySuperHeroName = superheroes.random();
 var mySuperVillainName = supervillains.random();
-var myFamousLastWords = famous-last-words.random();
+var myFamousLastWords = famouslastwords[2];
 
 //displays the hero and villain to the console
 console.log(mySuperHeroName);
@@ -34,3 +34,4 @@ fs.writeFileSync("file1.txt", mySuperHeroName);
 fs.writeFileSync("file2.txt", mySuperVillainName);
 fs.writeFileSync("file3.txt", myQuote);
 fs.writeFileSync("file4.txt", myMovie);
+fs.writeFileSync("file5.txt", myFamousLastWords);
